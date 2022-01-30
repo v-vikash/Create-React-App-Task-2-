@@ -1,0 +1,38 @@
+.navbar{
+    height: 88px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 23px 450px 29px 85px ;
+    background-color: rgb(3,20,5)
+}
+.col1{
+    margin-bottom: 8px;
+  }
+.col1 a{
+    font-size: 2em;
+    font-weight: bold;
+    color:rgba(245, 10, 88, 0.973);
+    outline: none;
+    text-decoration: none;
+}
+
+
+
+button{
+    color: rgb(5, 5, 5);
+    font-weight: 600;
+    float: right;
+    border: none;
+    border-radius: 11px;
+    background-color: rgb(3, 248, 146);
+    padding: 10px 14px;
+    font-family: 'Ubuntu', sans-serif;
+    margin: -73px 84px;
+
+  }
+  button:hover{
+    transition: 200ms;
+   scale:1.03;
+   background-color: rgb(202, 217, 250);
+  }

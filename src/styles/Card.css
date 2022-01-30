@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+.avatar{
+    border-radius: 50%;
+}
+
+.column-3{
+    float: left !important;
+    width: 33% !important;
+}
+h2{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+
+.profile{
+    border: 1.5px initial rgb(17, 179, 117);
+    box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.137);
+    max-width: 300px;
+    margin: 20px 50px;
+    text-align: center;
+    justify-items: center;
+    padding: 30px;
+    background-color: rgb(193, 212, 253);
+    border-radius: 15px;
+}
+
+.profile:hover{
+    transition:400ms;
+    box-shadow: 0 8px 16px 0 rgba(90, 12, 58, 0.582);
+    transform: translateY(-10px);
+}
+
+.profile img{
+    max-width: 100%;
+    align-items: center;
+    justify-items: center;
+    margin: auto;
+    border-radius: 80px;
+}
+
+.email {
+    color: rgba(16, 15, 17, 0.774);
+    font-size: 15px;
+    overflow-wrap: anywhere;
+    font-family: 'Courier New', Courier, monospace;
+}
+.name{
+    font-size:24px;
+    font-weight: bold;
+    color: rgba(62, 64, 66, 0.514);
+    font-family: monospace;
+    /* font-family: 'Ubuntu', sans-serif; */
+}
+
+
+@media screen and (max-width: 600px){
+    .profile{
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+
+    .name{
+        font-size:medium;
+    }
+    .column-3{
+        float: left;
+        margin-left: 60px;
+    }
+
+    .email{
+        font-size: small;
+    }
+}
